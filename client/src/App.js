@@ -9,7 +9,7 @@ const App = () =>{
   }
   return  (
     <div>
-          <input type="button" value="Get Random Nuber" onClick={handleClick} /> {number}
+          <input type="button" value="Get Random Number" onClick={handleClick} /> {number}
     </div>
   );
 };
