@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: nginx-frontend
-        image: frontend:1.0
+        image: frontend:2.0
         resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 5000
